@@ -1,0 +1,2 @@
+C:\Users\User\Desktop\snaulX\Zloubus-Modern\VulkanProject\Zloubus_Modern\Debug\Zloubus_Modern.exe
+C:\Users\User\Desktop\snaulX\Zloubus-Modern\VulkanProject\Zloubus_Modern\Debug\Zloubus_Modern.pdb
