@@ -1,4 +1,4 @@
-﻿  main.cpp
-C:\Users\User\Desktop\snaulX\Zloubus-Modern\VulkanProject\Zloubus_Modern\main.cpp(30,36): warning C4302: приведение типов: усечение из "LPWSTR" к "WORD"
-C:\Users\User\Desktop\snaulX\Zloubus-Modern\VulkanProject\Zloubus_Modern\main.cpp(31,43): warning C4302: приведение типов: усечение из "LPWSTR" к "WORD"
+﻿  VulkanRenderer.cpp
+C:\Users\User\Desktop\snaulX\Zloubus-Modern\VulkanProject\Zloubus_Modern\VulkanRenderer.cpp(38): warning C4700: использована неинициализированная локальная переменная "instanceExtAvialableAndRequiredQnt"
+C:\Users\User\Desktop\snaulX\Zloubus-Modern\VulkanProject\Zloubus_Modern\VulkanRenderer.cpp(54): warning C4700: использована неинициализированная локальная переменная "validationLayersAvialableAndRequiredQnt"
   Zloubus_Modern.vcxproj -> C:\Users\User\Desktop\snaulX\Zloubus-Modern\VulkanProject\Zloubus_Modern\Debug\Zloubus_Modern.exe

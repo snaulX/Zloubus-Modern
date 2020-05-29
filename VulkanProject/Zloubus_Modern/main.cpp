@@ -1,5 +1,6 @@
 #include <iostream>
 #include <Windows.h>
+#include "VulkanRenderer.h"
 
 using namespace std;
 
@@ -51,6 +52,8 @@ int main()
 		{
 			throw runtime_error("ERROR: Cannot create window");
 		}
+
+		VulkanRenderer vkRenderer = VulkanRenderer();
 
 		ShowWindow(hwnd, SW_SHOWMAXIMIZED);
 		UpdateWindow(hwnd);
