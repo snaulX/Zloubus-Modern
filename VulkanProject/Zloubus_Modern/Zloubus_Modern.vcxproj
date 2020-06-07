@@ -157,10 +157,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="VulkanRenderer.cpp" />
+    <ClCompile Include="VkRenderer.cpp" />
+    <ClCompile Include="VkTools.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="VulkanRenderer.h" />
+    <ClInclude Include="VkRenderer.h" />
+    <ClInclude Include="VkTools.h" />
+    <ClInclude Include="VkToolsBuffer.hpp" />
+    <ClInclude Include="VkToolsDevice.hpp" />
+    <ClInclude Include="VkToolsFrameBuffer.hpp" />
+    <ClInclude Include="VkToolsImage.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

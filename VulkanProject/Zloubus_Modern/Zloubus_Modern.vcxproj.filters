@@ -19,12 +19,30 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VulkanRenderer.cpp">
+    <ClCompile Include="VkRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VkTools.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="VulkanRenderer.h">
+    <ClInclude Include="VkRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VkTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VkToolsDevice.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VkToolsFrameBuffer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VkToolsBuffer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VkToolsImage.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

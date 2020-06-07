@@ -1,6 +1,5 @@
 #include <iostream>
 #include <Windows.h>
-#include "VulkanRenderer.h"
 
 using namespace std;
 
@@ -13,7 +12,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT Message, WPARAM wparam, LPARAM lparam)
 	}
 	else if (Message == WM_CREATE)
 	{
-		MessageBoxA(hwnd, "Window was created", "HEllo", MB_ICONINFORMATION);
+		//MessageBoxA(hwnd, "Window was created", "HEllo", MB_ICONINFORMATION);
 	}
 	return DefWindowProc(hwnd, Message, wparam, lparam);
 }
@@ -52,8 +51,6 @@ int main()
 		{
 			throw runtime_error("ERROR: Cannot create window");
 		}
-
-		VulkanRenderer vkRenderer = VulkanRenderer();
 
 		ShowWindow(hwnd, SW_SHOWMAXIMIZED);
 		UpdateWindow(hwnd);

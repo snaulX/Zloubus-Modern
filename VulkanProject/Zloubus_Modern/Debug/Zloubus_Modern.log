@@ -1,4 +1,11 @@
-﻿  VulkanRenderer.cpp
-C:\Users\User\Desktop\snaulX\Zloubus-Modern\VulkanProject\Zloubus_Modern\VulkanRenderer.cpp(38): warning C4700: использована неинициализированная локальная переменная "instanceExtAvialableAndRequiredQnt"
-C:\Users\User\Desktop\snaulX\Zloubus-Modern\VulkanProject\Zloubus_Modern\VulkanRenderer.cpp(54): warning C4700: использована неинициализированная локальная переменная "validationLayersAvialableAndRequiredQnt"
-  Zloubus_Modern.vcxproj -> C:\Users\User\Desktop\snaulX\Zloubus-Modern\VulkanProject\Zloubus_Modern\Debug\Zloubus_Modern.exe
+﻿  VkRenderer.cpp
+C:\Users\User\Desktop\snaulX\Zloubus-Modern\VulkanProject\Zloubus_Modern\VkToolsDevice.hpp(126,43): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\Desktop\snaulX\Zloubus-Modern\VulkanProject\Zloubus_Modern\VkRenderer.cpp(639,40): warning C4244: аргумент: преобразование "const uint32_t" в "float", возможна потеря данных
+C:\Users\User\Desktop\snaulX\Zloubus-Modern\VulkanProject\Zloubus_Modern\VkRenderer.cpp(640,41): warning C4244: аргумент: преобразование "const uint32_t" в "float", возможна потеря данных
+VkRenderer.obj : error LNK2019: ссылка на неразрешенный внешний символ _vkCreateDebugReportCallbackEXT@16 в функции "public: enum VkResult __thiscall vk::DispatchLoaderStatic::vkCreateDebugReportCallbackEXT(struct VkInstance_T *,struct VkDebugReportCallbackCreateInfoEXT const *,struct VkAllocationCallbacks const *,unsigned __int64 *)const " (?vkCreateDebugReportCallbackEXT@DispatchLoaderStatic@vk@@QBE?AW4VkResult@@PAUVkInstance_T@@PBUVkDebugReportCallbackCreateInfoEXT@@PBUVkAllocationCallbacks@@PA_K@Z).
+    Указание на символы, которые определены и могут подойти:
+      "public: enum VkResult __thiscall vk::DispatchLoaderStatic::vkCreateDebugReportCallbackEXT(struct VkInstance_T *,struct VkDebugReportCallbackCreateInfoEXT const *,struct VkAllocationCallbacks const *,unsigned __int64 *)const " (?vkCreateDebugReportCallbackEXT@DispatchLoaderStatic@vk@@QBE?AW4VkResult@@PAUVkInstance_T@@PBUVkDebugReportCallbackCreateInfoEXT@@PBUVkAllocationCallbacks@@PA_K@Z)
+VkRenderer.obj : error LNK2019: ссылка на неразрешенный внешний символ _vkDestroyDebugReportCallbackEXT@16 в функции "public: void __thiscall vk::DispatchLoaderStatic::vkDestroyDebugReportCallbackEXT(struct VkInstance_T *,unsigned __int64,struct VkAllocationCallbacks const *)const " (?vkDestroyDebugReportCallbackEXT@DispatchLoaderStatic@vk@@QBEXPAUVkInstance_T@@_KPBUVkAllocationCallbacks@@@Z).
+    Указание на символы, которые определены и могут подойти:
+      "public: void __thiscall vk::DispatchLoaderStatic::vkDestroyDebugReportCallbackEXT(struct VkInstance_T *,unsigned __int64,struct VkAllocationCallbacks const *)const " (?vkDestroyDebugReportCallbackEXT@DispatchLoaderStatic@vk@@QBEXPAUVkInstance_T@@_KPBUVkAllocationCallbacks@@@Z)
+C:\Users\User\Desktop\snaulX\Zloubus-Modern\VulkanProject\Zloubus_Modern\Debug\Zloubus_Modern.exe : fatal error LNK1120: неразрешенных внешних элементов: 2
